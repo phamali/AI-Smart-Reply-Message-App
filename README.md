@@ -7,7 +7,8 @@
 ---
 
 ## **Table of Contents** 
-- [Features](#features) 
+- [Features](#features)
+- [App Preview](#app-preview)
 - [Tech Stack & Architecture](#tech-stack--architecture)
 - [Installation Instructions](#installation-instructions) 
 
