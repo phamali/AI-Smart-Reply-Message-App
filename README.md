@@ -40,6 +40,31 @@
 
 ---
 
+## **Getting Started**
+
+To run **AIChat** locally on your machine, follow these steps:
+
+* **1. Prerequisites**
+  * **Java Development Kit (JDK):** Version 11 or higher (JDK 17 recommended).
+  * **IDE:** [IntelliJ IDEA](https://www.jetbrains.com/idea/) (Community or Ultimate Edition).
+  * **Git:** Installed on your machine.
+
+* **2. Clone the Repository**
+  * Open your terminal and run:
+    `git clone https://github.com/your-username/AIChat.git`
+
+* **3. Open in IntelliJ IDEA**
+  * Launch IntelliJ IDEA and select **Open**.
+  * Select the cloned `AIChat` project folder and open it as a **Maven** project (via `pom.xml`).
+
+* **4. Load Maven Dependencies**
+  * Allow IntelliJ a moment to automatically download and index the required Maven dependencies (`FlatLaf`, `OkHttp3`, `Gson`, and `JUnit`).
+  * If dependencies do not load automatically, open the **Maven** tab on the right sidebar and click the **Reload All Maven Projects** icon.
+
+* **5. Run the Application**
+  * Navigate to `src/main/java/app/Main.java` (or `src/main/java/Main.java`).
+  * Right-click `Main.java` and select **Run 'Main.main()'** to launch the application window.
+
 ## **Installation Instructions**  
 
 ### **Install IntelliJ Ultimate IDEA**  
