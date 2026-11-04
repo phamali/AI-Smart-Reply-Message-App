@@ -1,81 +1,94 @@
 package view;
 
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Cursor;
+import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.event.ActionListener;
+
+import javax.swing.BorderFactory;
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+import com.formdev.flatlaf.FlatClientProperties;
 
 /**
  * The Landing View for navigating to Login or Signup.
  */
 public class LandingView extends JPanel {
+    private static final Color BG_COLOR = new Color(248, 250, 252);
+    private static final Color CARD_BG = Color.WHITE;
+    private static final Color PRIMARY_BLUE = new Color(66, 133, 244);
+    private static final Color TEXT_DARK = new Color(15, 23, 42);
+    private static final Color TEXT_MUTED = new Color(100, 116, 139);
+
     private final String viewName = "landing";
 
     public LandingView(ActionListener loginListener, ActionListener signupListener) {
         setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-        setBackground(Color.WHITE);
-        setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30));
+        setBackground(BG_COLOR);
+        setBorder(BorderFactory.createEmptyBorder(40, 40, 40, 40));
 
-        JLabel title = new JLabel("Welcome to AI CHAT!");
-        title.setFont(new Font("Arial", Font.BOLD, 24));
-        title.setForeground(Color.BLACK);
+        // Inner centered card panel matching Login/Signup styling
+        final JPanel cardPanel = new JPanel();
+        cardPanel.setLayout(new BoxLayout(cardPanel, BoxLayout.Y_AXIS));
+        cardPanel.setBackground(CARD_BG);
+        cardPanel.setBorder(BorderFactory.createEmptyBorder(40, 40, 40, 40));
+        cardPanel.putClientProperty(FlatClientProperties.STYLE, "arc: 24");
+        cardPanel.setAlignmentX(Component.CENTER_ALIGNMENT);
+        cardPanel.setMaximumSize(new Dimension(380, 400));
+
+        // Title and Subtitle
+        final JLabel title = new JLabel("AI Chat Messenger");
+        title.setFont(new Font("SansSerif", Font.BOLD, 24));
+        title.setForeground(TEXT_DARK);
         title.setAlignmentX(Component.CENTER_ALIGNMENT);
 
-        JButton loginButton = createStyledButton("Login", new Color(66, 133, 244), Color.WHITE, false);
+        final JLabel subtitle = new JLabel("Connect, chat, and explore with AI");
+        subtitle.setFont(new Font("SansSerif", Font.PLAIN, 14));
+        subtitle.setForeground(TEXT_MUTED);
+        subtitle.setAlignmentX(Component.CENTER_ALIGNMENT);
+
+        // Primary Login Button
+        final JButton loginButton = new JButton("Log In");
+        loginButton.setFont(new Font("SansSerif", Font.BOLD, 15));
+        loginButton.setForeground(Color.WHITE);
+        loginButton.setBackground(PRIMARY_BLUE);
+        loginButton.setPreferredSize(new Dimension(300, 44));
+        loginButton.setMaximumSize(new Dimension(300, 44));
         loginButton.setAlignmentX(Component.CENTER_ALIGNMENT);
+        loginButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        loginButton.putClientProperty(FlatClientProperties.STYLE, "arc: 12; borderWidth: 0; focusWidth: 0");
         loginButton.addActionListener(loginListener);
 
-        JButton signupButton = createStyledButton("Signup", Color.WHITE, Color.BLACK, true);
+        // Secondary Signup Button
+        final JButton signupButton = new JButton("Create Account");
+        signupButton.setFont(new Font("SansSerif", Font.BOLD, 15));
+        signupButton.setForeground(TEXT_DARK);
+        signupButton.setBackground(new Color(241, 245, 249));
+        signupButton.setPreferredSize(new Dimension(300, 44));
+        signupButton.setMaximumSize(new Dimension(300, 44));
         signupButton.setAlignmentX(Component.CENTER_ALIGNMENT);
+        signupButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        signupButton.putClientProperty(FlatClientProperties.STYLE,
+                "arc: 12; borderWidth: 1; borderColor: #CBD5E1; focusWidth: 0; hoverBackground: #E2E8F0");
         signupButton.addActionListener(signupListener);
 
-        add(Box.createVerticalStrut(20));
-        add(title);
-        add(Box.createVerticalStrut(30));
-        add(loginButton);
-        add(Box.createVerticalStrut(20));
-        add(signupButton);
-    }
+        cardPanel.add(title);
+        cardPanel.add(Box.createVerticalStrut(8));
+        cardPanel.add(subtitle);
+        cardPanel.add(Box.createVerticalStrut(36));
+        cardPanel.add(loginButton);
+        cardPanel.add(Box.createVerticalStrut(14));
+        cardPanel.add(signupButton);
 
-    /**
-     * Helper method to create styled buttons.
-     */
-    private JButton createStyledButton(String text, Color bgColor, Color fgColor, boolean withBorder) {
-        JButton button = new JButton(text) {
-            @Override
-            protected void paintComponent(Graphics g) {
-                Graphics2D g2 = (Graphics2D) g.create();
-                g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-                g2.setColor(bgColor);
-                g2.fillRoundRect(0, 0, getWidth(), getHeight(), 20, 20);
-
-                if (withBorder) {
-                    g2.setColor(fgColor);
-                    g2.setStroke(new BasicStroke(2));
-                    g2.drawRoundRect(0, 0, getWidth() - 1, getHeight() - 1, 20, 20);
-                }
-
-                g2.setColor(fgColor);
-                g2.setFont(getFont());
-                FontMetrics fm = g2.getFontMetrics();
-                int x = (getWidth() - fm.stringWidth(getText())) / 2;
-                int y = (getHeight() + fm.getAscent()) / 2 - fm.getDescent();
-                g2.drawString(getText(), x, y);
-                g2.dispose();
-            }
-
-            @Override
-            protected void paintBorder(Graphics g) {
-            }
-        };
-
-        button.setFont(new Font("Arial", Font.BOLD, 14));
-        button.setFocusPainted(false);
-        button.setBorderPainted(false);
-        button.setContentAreaFilled(false);
-        button.setPreferredSize(new Dimension(300, 40));
-        button.setMaximumSize(new Dimension(300, 40));
-        button.setCursor(new Cursor(Cursor.HAND_CURSOR));
-        return button;
+        add(Box.createVerticalGlue());
+        add(cardPanel);
+        add(Box.createVerticalGlue());
     }
 
     public String getViewName() {
