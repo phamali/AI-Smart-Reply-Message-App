@@ -9,8 +9,6 @@
 ## **Table of Contents** 
 - [Features](#features) 
 - [Tech Stack & Architecture](#tech-stack--architecture) 
-- [Quick Start / Installation](#quick-start--installation) 
-- [User Guide](#user-guide) 
 
 ---
 
