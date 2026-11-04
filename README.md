@@ -8,7 +8,8 @@
 
 ## **Table of Contents** 
 - [Features](#features) 
-- [Tech Stack & Architecture](#tech-stack--architecture) 
+- [Tech Stack & Architecture](#tech-stack--architecture)
+- [Installation Instructions](#installation-instructions) 
 
 ---
 
@@ -33,19 +34,9 @@
 ## **Installation Instructions**
 
 1. **Prerequisites:** Install **Java 11+** (JDK 17 recommended) and **IntelliJ IDEA**.
-2. **Clone:** Run `git clone https://github.com/your-username/AIChat.git` in your terminal.
+2. **Clone:** Run `git clone https://github.com/phamali/AI-Smart-Reply-Message-App.git` in your terminal.
 3. **Import:** Open the project folder in IntelliJ as a **Maven** project and let `pom.xml` sync dependencies.
 4. **Run:** Open `src/main/java/app/Main.java`, right-click, and select **Run 'Main.main()'**.
-
-## **Table of Contents**  
-- [Features of Software](#features-of-software)  
-- [Installation Instructions](#installation-instructions)  
-- [Usage Guide](#usage-guide)  
-- [License](#license)  
-- [Section for Feedback](#section-for-feedback)  
-- [Section for Contributions](#section-for-contributions)  
-
----
 
 ## **Installation Instructions**  
 
