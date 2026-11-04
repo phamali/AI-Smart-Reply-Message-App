@@ -1,12 +1,5 @@
 # **AIChat** 🤖💬
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-17-blue.svg" alt="Java">
-  <img src="https://img.shields.io/badge/UI-Swing%20%2F%20FlatLaf-orange.svg" alt="FlatLaf">
-  <img src="https://img.shields.io/badge/API-OpenAI%20GPT-green.svg" alt="OpenAI">
-  <img src="https://img.shields.io/badge/Build-Maven-red.svg" alt="Maven">
-</p>
-
 **AIChat** is a real-time desktop messaging application built using Clean Architecture. It allows users to manage accounts, connect with friends, and exchange messages seamlessly.
 
 **Key Highlight:** AIChat features an **AI-powered smart response generator**. By analyzing your recent conversation history, the app suggests intelligent, context-aware replies that you can send with a single click.
