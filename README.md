@@ -10,7 +10,8 @@
 - [Features](#features)
 - [App Preview](#app-preview)
 - [Tech Stack & Architecture](#tech-stack--architecture)
-- [Installation Instructions](#installation-instructions) 
+- [Installation Instructions](#installation-instructions)
+- [License](#license)
 
 ---
 
