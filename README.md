@@ -1,7 +1,5 @@
 # **AIChat**
 
-## **Summary of Project’s Purpose**  
-
 **AIChat** is a real-time desktop messaging application built using Clean Architecture. It allows users to manage accounts, connect with friends, and exchange messages seamlessly.
 
 ✨ **Key Highlight:** AIChat features an **AI-powered smart response generator**. By analyzing your recent conversation history, the app suggests intelligent, context-aware replies that you can send with a single click.
