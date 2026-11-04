@@ -30,6 +30,13 @@
 
 ---
 
+## **Installation Instructions**
+
+1. **Prerequisites:** Install **Java 11+** (JDK 17 recommended) and **IntelliJ IDEA**.
+2. **Clone:** Run `git clone https://github.com/your-username/AIChat.git` in your terminal.
+3. **Import:** Open the project folder in IntelliJ as a **Maven** project and let `pom.xml` sync dependencies.
+4. **Run:** Open `src/main/java/app/Main.java`, right-click, and select **Run 'Main.main()'**.
+
 ## **Table of Contents**  
 - [Features of Software](#features-of-software)  
 - [Installation Instructions](#installation-instructions)  
@@ -39,13 +46,6 @@
 - [Section for Contributions](#section-for-contributions)  
 
 ---
-
-## **Installation Instructions**
-
-1. **Prerequisites:** Install **Java 11+** (JDK 17 recommended) and **IntelliJ IDEA**.
-2. **Clone:** Run `git clone https://github.com/your-username/AIChat.git` in your terminal.
-3. **Import:** Open the project folder in IntelliJ as a **Maven** project and let `pom.xml` sync dependencies.
-4. **Run:** Open `src/main/java/app/Main.java`, right-click, and select **Run 'Main.main()'**.
 
 ## **Installation Instructions**  
 
