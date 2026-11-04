@@ -15,12 +15,10 @@
 ## **Features** 
 
 * **Authentication**: Secure Sign Up, Log In, Password Reset, and Logout.
-<br>     Create a new account by entering a username, email, and password. 
 * **Profile Customization**: Choose and update profile avatars.
 * **Friend System**: Add users by username to instantly initialize chat rooms.
 * **Real-Time Messaging**: Exchange messages with automatic timestamping and smooth scroll behavior.
 * **AI Smart Replies**: Leverage GPT-4 integration to generate contextually accurate message suggestions.
-* **Search & Navigation**: Instantly filter conversations via the live chat search bar.
 
 ---
 
@@ -39,21 +37,6 @@
 - [License](#license)  
 - [Section for Feedback](#section-for-feedback)  
 - [Section for Contributions](#section-for-contributions)  
-
----
-
-## **Features of Software**  
-
-- **Sign Up**: Create a new account to start using AIChat by inputting a username, email, and password.  
-- **Log In**: Access an existing account by entering a username and password.  
-- **Add Friend**: Connect with an existing user. This will create a conversation with the added friend.  
-- **Messaging**: Send and receive real-time messages with friends. Each message includes a timestamp.  
-- **View Conversation**: Access your message history with an individual user.  
-- **View Chat List**: Browse the preview of all individual conversations with added friends. The preview of a conversation includes the most recent message and its timestamp.  
-- **AI Generated Response**: Get an intelligent, context-aware response suggestion based on your recent messages. You can choose to send these suggestions directly in your conversation.  
-- **Change Password**: Securely update your account password by entering the current password and confirming a new password.  
-- **Change Profile Picture**: Personalize your profile by uploading a picture from a set of images.  
-- **Logout**: Sign out of your account.  
 
 ---
 
