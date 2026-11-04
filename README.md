@@ -1,10 +1,5 @@
 # **AIChat**
 
-### **Authors**  
-Alisha, Eddie, Tiffany, Julian, Dareenat
-
----
-
 ## **Summary of Project’s Purpose**  
 
 AIChat is a real-time messaging application that allows users to create an account, add other users, and exchange messages.
@@ -158,3 +153,7 @@ Contributions are **currently closed**.
 
 We encourage you to explore the project for learning or inspiration. If contributions open in the future, this section will be updated with detailed guidelines for submitting changes.  
 
+---
+
+### **Authors**  
+Alisha, Eddie, Tiffany, Julian, Dareenat
