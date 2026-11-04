@@ -38,27 +38,6 @@
 3. **Import:** Open the project folder in IntelliJ as a **Maven** project and let `pom.xml` sync dependencies.
 4. **Run:** Open `src/main/java/app/Main.java`, right-click, and select **Run 'Main.main()'**.
 
-## **Installation Instructions**  
-
-### **Install IntelliJ Ultimate IDEA**  
-Visit the [JetBrains website](https://www.jetbrains.com/idea/) for instructions on how to download IntelliJ Ultimate IDEA.  
-- **Students**: You have access to a student license for IntelliJ Ultimate IDEA. Sign up on [JetBrains Students](https://www.jetbrains.com/student/).  
-- Follow the JetBrains official installation guide for further details.
-
-### **Install Java**  
-Download a JDK from version 11 or higher. Version 17 is recommended.  
-- Follow instructions for installing Java [here](https://www.oracle.com/java/technologies/javase-downloads.html).  
-
-### **Install Git**  
-IntelliJ provides version control integration, including Git.  
-- Follow the [JetBrains Git Integration Guide](https://www.jetbrains.com/help/idea/enabling-version-control.html).  
-- If Git isn't installed on your computer, download it from [Git SCM](https://git-scm.com/downloads).  
-
-### **Get a GitHub Account**  
-1. Sign up at [GitHub](https://github.com/).  
-2. Fork this repository.  
-3. Copy the HTTPS link to clone the repository.
-
 ---
 
 ## **Usage Guide**  
