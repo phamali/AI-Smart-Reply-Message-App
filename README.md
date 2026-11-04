@@ -128,32 +128,5 @@ This project is licensed under the terms of the [CC0 1.0 Universal (Public Domai
 
 ---
 
-## **Section for Feedback**  
-
-We value your feedback to improve this project! You can share your thoughts, suggestions, or issues via our [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdO6iQ9f_fjr8MujrHnM52fhtJDO8qyA0wFTb7KJ3RHjWNsEg/viewform?usp=pp_url).  
-
-### **Rules for Valid Feedback**  
-- **Be Specific**: Clearly describe the issue, suggestion, or feature request.  
-- **Be Constructive**: Provide actionable feedback to help us improve.  
-- **Stay Respectful and Professional**: Keep your comments polite and relevant.
-
-### **What to Expect After Submitting Feedback**  
-- Submissions will be reviewed within **7 business days**.  
-- Valid feedback will be acknowledged, and critical issues may be addressed in future updates.  
-- While not all suggestions will result in immediate changes, we appreciate all feedback!  
-
----
-
-## **Section for Contributions**  
-
-Thank you for your interest in contributing to this project!  
-
-### **Current Status**  
-Contributions are **currently closed**.  
-
-We encourage you to explore the project for learning or inspiration. If contributions open in the future, this section will be updated with detailed guidelines for submitting changes.  
-
----
-
 ### **Authors**  
 Alisha, Eddie, Tiffany, Julian, Dareenat
