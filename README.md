@@ -15,7 +15,7 @@
 ## **Features** 
 
 * **Authentication**: Secure Sign Up, Log In, Password Reset, and Logout.
-  Create a new account by entering a username, email, and password. 
+<br>  Create a new account by entering a username, email, and password. 
 * **Profile Customization**: Choose and update profile avatars.
 * **Friend System**: Add users by username to instantly initialize chat rooms.
 * **Real-Time Messaging**: Exchange messages with automatic timestamping and smooth scroll behavior.
