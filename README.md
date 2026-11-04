@@ -6,6 +6,33 @@
 
 ---
 
+## **Table of Contents** 
+- [Features](#features) 
+- [Tech Stack & Architecture](#tech-stack--architecture) 
+- [Quick Start / Installation](#quick-start--installation) 
+- [User Guide](#user-guide) 
+
+---
+
+## **Features** 
+
+* **Authentication**: Secure Sign Up, Log In, Password Reset, and Logout.
+* **Profile Customization**: Choose and update profile avatars.
+* **Friend System**: Add users by username to instantly initialize chat rooms.
+* **Real-Time Messaging**: Exchange messages with automatic timestamping and smooth scroll behavior.
+* **AI Smart Replies**: Leverage GPT-4 integration to generate contextually accurate message suggestions.
+* **Search & Navigation**: Instantly filter conversations via the live chat search bar.
+
+---
+
+## **Tech Stack & Architecture**
+* **Language:** Java 17
+* **UI Framework:** Java Swing styled with **FlatLaf** for modern light/dark themes.
+* **Architecture:** Clean Architecture (Entities, Use Cases, Interface Adapters, Frameworks/Drivers).
+* **APIs & Libraries:** OkHttp3, Gson, OpenAI Chat Completions API, JUnit 5.
+
+---
+
 ## **Table of Contents**  
 - [Features of Software](#features-of-software)  
 - [Installation Instructions](#installation-instructions)  
