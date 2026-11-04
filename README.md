@@ -27,13 +27,13 @@
 
 ## **App Preview**
 
-| Landing | Add Friend | AI Smart Reply |
+| Landing | Sign Up | Add Friend |
 | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/61e26abe-c49d-4860-a578-afa8e2326b92" alt="Landing Page" width="240" /> | <img src="https://github.com/user-attachments/assets/13e68920-4568-4060-8f72-2ccd1f9b4e65" alt="Add Friend" width="240" /> | <img src="https://github.com/user-attachments/assets/f963c607-df38-4b1d-8309-b9e57473871f" alt="AI Smart Reply" width="240" /> |
+| <img src="https://github.com/user-attachments/assets/61e26abe-c49d-4860-a578-afa8e2326b92" alt="Landing Page" width="240" /> | <img src="https://github.com/user-attachments/assets/9cfa9f04-5057-4488-a983-4b57bcfbf0a7" alt="Sign Up" width="240" /> | <img src="https://github.com/user-attachments/assets/13e68920-4568-4060-8f72-2ccd1f9b4e65" alt="Add Friend" width="240" /> |
 
-| Select Avatar | Profile & Settings |
-| :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/7cbcaa49-dbc5-4728-89e7-e9cd16b6a554" alt="Select Avatar" width="240" /> | <img src="https://github.com/user-attachments/assets/d3deeb75-4264-4f82-930a-69a0f683c19f" alt="Profile and Settings" width="240" /> |
+| AI Smart Reply | Select Avatar | Profile & Settings |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/f963c607-df38-4b1d-8309-b9e57473871f" alt="AI Smart Reply" width="240" /> | <img src="https://github.com/user-attachments/assets/7cbcaa49-dbc5-4728-89e7-e9cd16b6a554" alt="Select Avatar" width="240" /> | <img src="https://github.com/user-attachments/assets/d3deeb75-4264-4f82-930a-69a0f683c19f" alt="Profile and Settings" width="240" /> |
 
 ---
 
